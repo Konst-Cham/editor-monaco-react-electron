@@ -1,0 +1,51 @@
+.ant-tabs-nav{
+    margin-bottom:0 !important;
+}
+
+.ant-tabs-content
+{
+    height: 1080px;
+    width: 1920px;
+
+}
+.ant-tabs-tabpane
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+html[data-theme='dark'] {
+    .ant-tabs-tabpane,
+    .ant-tabs-nav-wrap,
+    .ant-tabs-tab-active,
+    .ant-select-selector,
+    .ant-select-arrow
+    {
+        background-color: #242f3d !important;
+        color: white !important;
+
+    }
+    .view-lines {
+        background-color: #242f3d;
+        color: #6189b4;
+    }
+    .mtk1{
+        color: #f7f36d;
+    }
+    .margin-view-overlays{
+        background-color: #242f3d;
+    }
+    .line-numbers {
+        color: white;
+    }
+    .decorationsOverviewRuler{
+        color: #1e1e1e;
+        background-color: #1e1e1e;
+    }
+    .active-line-number
+    {
+        background-color: #6189b4;
+    }
+
+}
